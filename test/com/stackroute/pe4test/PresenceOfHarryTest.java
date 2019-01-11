@@ -1,7 +1,8 @@
+package com.stackroute.pe4test;
+import com.stackroute.pe4main.PresenceOfHarry;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 public class PresenceOfHarryTest {

@@ -1,10 +1,10 @@
+package com.stackroute.pe4test;
+import com.stackroute.pe4main.MultipleOccurrence;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import static org.junit.Assert.*;
 
 public class MultipleOccurrenceTest {
@@ -36,6 +36,7 @@ public class MultipleOccurrenceTest {
         List<String> actualresult = test.findOccurrence("She sells seashells by the seashore","se");
         assertEquals(expectedresult,actualresult);
     }
+
     @Test
     public void findOccurrenceFailure(){
         List<String> expectedresult = new ArrayList<>();

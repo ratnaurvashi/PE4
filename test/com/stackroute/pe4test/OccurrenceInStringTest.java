@@ -1,7 +1,8 @@
+package com.stackroute.pe4test;
+import com.stackroute.pe4main.OccurrenceInString;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 public class OccurrenceInStringTest {
@@ -23,11 +24,13 @@ public class OccurrenceInStringTest {
         int actualresult = test.countOccurrence("Java is java again java again","a");
         assertEquals(10,actualresult);
     }
+
     @Test
     public void checkCountOccurrencesFailure(){
         int actualresult = test.countOccurrence("Java is java again java again","a");
         assertNotEquals(4,actualresult);
     }
+
     @Test
     public void checkCountOccurrencesForNull(){
         int actualresult1 = test.countOccurrence(null,"a");

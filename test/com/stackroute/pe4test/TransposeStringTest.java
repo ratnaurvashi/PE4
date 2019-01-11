@@ -1,3 +1,5 @@
+package com.stackroute.pe4test;
+import com.stackroute.pe4main.TransposeString;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -23,6 +25,7 @@ public class TransposeStringTest {
         String actualresult = test.transposeString("a quick brown fox jumps over the lazy dog");
         assertEquals("a kciuq nworb xof spmuj revo eht yzal god",actualresult);
     }
+
     @Test
     public void transposeStringFailure(){
         String actualresult = test.transposeString("a quick brown fox jumps over the lazy dog");
